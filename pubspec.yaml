@@ -1,7 +1,7 @@
 name: dominant_color_detector
-description: "A new Flutter package project."
+description: "A new Flutter package to that extract color from image pixel."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Muitsu/Color-Analyzer
 
 environment:
   sdk: ^3.8.1
