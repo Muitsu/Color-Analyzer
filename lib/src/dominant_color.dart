@@ -32,7 +32,11 @@ enum DominantColor {
       '#${color.toARGB32().toRadixString(16).padLeft(8, '0').toUpperCase()}';
 
   /// Returns the RGB as a map for convenience
-  Map<String, num> get rgb => {'r': color.r, 'g': color.g, 'b': color.b};
+  Map<String, num> get rgb => {
+    'r': ((color.r * 255.0).round() & 0xff),
+    'g': ((color.g * 255.0).round() & 0xff),
+    'b': ((color.b * 255.0).round() & 0xff),
+  };
 
   @override
   String toString() => label;

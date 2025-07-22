@@ -11,8 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-# 🎨 Dominant Color Detector
+![color_analyzer](https://raw.githubusercontent.com/Muitsu/Color-Analyzer/refs/heads/main/assets/example.png)
 
+# 🎨 Dominant Color Detector
 
 A lightweight Dart package to detect the dominant colors in an image with support for isolates (background processing), color percentage breakdown, and named color mapping.
 
