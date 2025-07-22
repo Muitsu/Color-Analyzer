@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-![color_analyzer](https://raw.githubusercontent.com/Muitsu/Color-Analyzer/refs/heads/main/assets/example.png)
+![color_analyzer](https://raw.githubusercontent.com/Muitsu/Color-Analyzer/refs/heads/main/assets/example2.png)
 
 # 🎨 Dominant Color Detector
 
