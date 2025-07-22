@@ -15,7 +15,7 @@ and the Flutter guide for
 
 # 🎨 Dominant Color Detector
 
-A lightweight Dart package to detect the dominant colors in an image with support for isolates (background processing), color percentage breakdown, and named color mapping.
+A lightweight Dart package to detect the dominant colors in an image, color percentage breakdown, and named color mapping.
 
 Ideal for image analysis, theming, UI personalization, or artistic purposes in Flutter apps.
 
@@ -38,7 +38,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dominant_color_detector: ^1.0.0
+  dominant_color_detector: ^0.0.2
 ```
 
 ### 2. Usage
@@ -53,7 +53,7 @@ Uint8List bytes = ... // your image bytes
 final results = await DominantColorDetector.analyze(bytes);
 
 for (final result in results) {
-  print('${result.color.label}: ${(result.percentage * 100).toStringAsFixed(2)}%');
+  print('${result.color.label}: ${(result.percentage).toStringAsFixed(0)}%');
 }
 ```
 
